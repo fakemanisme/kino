@@ -1,0 +1,25 @@
+@media (max-width:575px) {
+    .header-cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-cont a{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:410px) {
+    nav .header-list .header-link{
+        font-size: 13px;
+    }
+    
+    .header-main .header-main-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header-main .header-main-btn button{
+        margin-bottom: 15px;
+    }
+}
